@@ -1,0 +1,1050 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="9" passed="9">
+  <reporter-output>
+    <line>
+      <![CDATA[INFO  ScreenShot - Delete all files from folderD:\EclipseProject\Reporting\test-output\html\screenshots<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  YandexTest - start 'login test'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  YandexTest - start 'loginToMail method'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  MailService - set login from account:seleniumexample<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  MailService - set password from account:seleniumexample1<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  MailService - click on button 'Войти' <br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  MailService - check the mail link presented<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  YandexTest - finish 'loginToMail method'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  ScreenShot - <a href = 'screenshots/screenshot4125543119565602801.png'>See ScreenShot</a><br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  YandexTest - finish 'login test'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  YandexTest - start 'writeLetter test'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  YandexTest - filling the BO - letter:<br>                    recipient: april.helga@mail.ru subject: О погоде textOfLetter: Здравствуйте!<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  YandexTest - start 'writeMessage method'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  MailService - click on button 'Написать'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  MailService - start 'setFieldsOfLetter method'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  LetterPage - click on field 'Кому'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  LetterPage - send key 'april.helga@mail.ru' on field 'Кому'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  LetterPage - send key 'О погоде' on field 'Тема'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  LetterPage - send key 'Здравствуйте!' on field 'Текст письма'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  MailService - finish 'setFieldsOfLetter method'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  MailService - check the subject field presented<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  MailService - check the drafts link presented<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  MailService - click on button 'Входящие'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  YandexTest - finish 'writeMessage method'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  YandexTest - finish 'writeLetter test'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  YandexTest - start 'writeLetter test'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  YandexTest - filling the BO - letter:<br>                    recipient: april.helga@mail.ru subject: Работа textOfLetter: Приветствую!<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  YandexTest - start 'writeMessage method'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  MailService - click on button 'Написать'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  MailService - start 'setFieldsOfLetter method'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  LetterPage - click on field 'Кому'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  LetterPage - send key 'april.helga@mail.ru' on field 'Кому'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  LetterPage - send key 'Работа' on field 'Тема'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  LetterPage - send key 'Приветствую!' on field 'Текст письма'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  MailService - finish 'setFieldsOfLetter method'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  MailService - check the subject field presented<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  MailService - check the drafts link presented<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  MailService - click on button 'Входящие'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  YandexTest - finish 'writeMessage method'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  YandexTest - finish 'writeLetter test'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  YandexTest - start 'checkTheDrafts test'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  YandexTest - filling the BO - letter:<br>                    recipient: april.helga@mail.ru subject: О погоде textOfLetter: Здравствуйте!<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  YandexTest - start 'draftsCheck' method<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  MailService - click on button 'Черновики'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  MailService - start 'clickAtCheckingDraft method'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  DraftsPage - click at the draft with subject: 'О погоде'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  MailService - finish 'clickAtCheckingDraft method'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  MailService - start 'assertDrafts method'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  MailService - finish 'assertDrafts method'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  YandexTest - finish 'draftsCheck' method<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  YandexTest - finish 'checkTheDrafts test'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  YandexTest - start 'checkTheDrafts test'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  YandexTest - filling the BO - letter:<br>                    recipient: april.helga@mail.ru subject: Работа textOfLetter: Приветствую!<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  YandexTest - start 'draftsCheck' method<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  MailService - click on button 'Черновики'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  MailService - start 'clickAtCheckingDraft method'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  DraftsPage - click at the draft with subject: 'Работа'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  MailService - finish 'clickAtCheckingDraft method'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  MailService - start 'assertDrafts method'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  MailService - finish 'assertDrafts method'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  YandexTest - finish 'draftsCheck' method<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  YandexTest - finish 'checkTheDrafts test'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  YandexTest - start 'sendLetter test'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  YandexTest - filling the BO - letter:<br>                    recipient: april.helga@mail.ru subject: О погоде textOfLetter: Здравствуйте!<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  YandexTest - start 'sendMessage' method<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  MailService - click on button 'Входящие'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  MailService - click on button 'Написать'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  MailService - start 'setFieldsOfLetter method'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  LetterPage - click on field 'Кому'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  LetterPage - send key 'april.helga@mail.ru' on field 'Кому'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  LetterPage - send key 'О погоде' on field 'Тема'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  LetterPage - send key 'Здравствуйте!' on field 'Текст письма'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  MailService - finish 'setFieldsOfLetter method'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  MailService - start 'sendLetter' method<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  LetterPage - click on button 'Отправить'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  MailService - finish 'sendLetter' method<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  YandexTest - finish 'sendMessage' method<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  YandexTest - finish 'sendLetter test'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  YandexTest - start 'sendLetter test'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  YandexTest - filling the BO - letter:<br>                    recipient: april.helga@mail.ru subject: Работа textOfLetter: Приветствую!<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  YandexTest - start 'sendMessage' method<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  MailService - click on button 'Входящие'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  MailService - click on button 'Написать'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  MailService - start 'setFieldsOfLetter method'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  LetterPage - click on field 'Кому'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  LetterPage - send key 'april.helga@mail.ru' on field 'Кому'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  LetterPage - send key 'Работа' on field 'Тема'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  LetterPage - send key 'Приветствую!' on field 'Текст письма'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  MailService - finish 'setFieldsOfLetter method'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  MailService - start 'sendLetter' method<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  LetterPage - click on button 'Отправить'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  MailService - finish 'sendLetter' method<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  YandexTest - finish 'sendMessage' method<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  YandexTest - finish 'sendLetter test'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  YandexTest - start 'checkSendedLetters test'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  YandexTest - filling the BO - letter:<br>                    recipient: april.helga@mail.ru subject: О погоде textOfLetter: Здравствуйте!<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  YandexTest - start 'checkSendedMessage' method<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  MailService - click on button 'Отрпавленные'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  MailService - start 'clickAtCheckingLetter method'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  SendedLettersPage - click on element (//span[@title="О погоде"])[1]<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  MailService - finish 'clickAtCheckingLetter method'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  MailService - start 'assertLetters' method<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  MailService - finish 'assertLetters' method<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  YandexTest - finish 'checkSendedMessage' method<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  YandexTest - finish 'checkSendedLetters test'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  YandexTest - start 'checkSendedLetters test'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  YandexTest - filling the BO - letter:<br>                    recipient: april.helga@mail.ru subject: Работа textOfLetter: Приветствую!<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  YandexTest - start 'checkSendedMessage' method<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  MailService - click on button 'Отрпавленные'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  MailService - start 'clickAtCheckingLetter method'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  SendedLettersPage - click on element (//span[@title="Работа"])[1]<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  MailService - finish 'clickAtCheckingLetter method'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  MailService - start 'assertLetters' method<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  MailService - finish 'assertLetters' method<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  YandexTest - finish 'checkSendedMessage' method<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  YandexTest - finish 'checkSendedLetters test'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  YandexTest - start 'cleanTheDrafts test'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  YandexTest - start 'cleanAllDrafts' method<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  MailService - click on button 'Черновики'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  MailService - start 'deleteDrafts' method<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  DraftsPage - click on button 'Черновики(checkbox)'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  DraftsPage - click on button 'Удалить'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  MailService - finish 'deleteDrafts' method<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  YandexTest - finish 'cleanAllDrafts' method<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  YandexTest - finish 'cleanTheDrafts test'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  YandexTest - start 'cleanTheSendedLetters test'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  YandexTest - start 'cleanAllSendedLetters' method<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  MailService - click on button 'Отправленные'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  MailService - start 'deleteSendedLetters' method<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  SendedLettersPage - click on button 'Отправленные(checkbox)'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  SendedLettersPage - click on button 'Удалить'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  MailService - finish 'deleteSendedLetters' method<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  YandexTest - finish 'cleanAllSendedLetters' method<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  YandexTest - finish 'cleanTheSendedLetters test'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  YandexTest - start 'exitOfYandexMail test'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  YandexTest - start 'exitFromMail' method<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  MailService - start 'deleteSendedLetters' method<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  SendedLettersPage - click on exit icon<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  SendedLettersPage - click on button 'Выход'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  MailService - finish 'deleteSendedLetters' method<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  YandexTest - finish 'exitFromMail' method<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO  YandexTest - finish 'exitOfYandexMail test'<br>]]>
+    </line>
+  </reporter-output>
+  <suite name="Reporting suite" duration-ms="67151" started-at="2016-07-20T12:39:58Z" finished-at="2016-07-20T12:41:05Z">
+    <groups>
+    </groups>
+    <test name="Reporting test" duration-ms="67151" started-at="2016-07-20T12:39:58Z" finished-at="2016-07-20T12:41:05Z">
+      <class name="com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest@bae7dc0]" name="startBrowser" is-config="true" duration-ms="655" started-at="2016-07-20T15:39:58Z" finished-at="2016-07-20T15:39:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest@bae7dc0]" name="loginTest" duration-ms="7034" started-at="2016-07-20T15:39:59Z" finished-at="2016-07-20T15:40:06Z">
+          <reporter-output>
+            <line>
+              <![CDATA[INFO  YandexTest - start 'login test'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  YandexTest - start 'loginToMail method'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  MailService - set login from account:seleniumexample<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  MailService - set password from account:seleniumexample1<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  MailService - click on button 'Войти' <br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  MailService - check the mail link presented<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  YandexTest - finish 'loginToMail method'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  ScreenShot - <a href = 'screenshots/screenshot4125543119565602801.png'>See ScreenShot</a><br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  YandexTest - finish 'login test'<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="writeLetter(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest@bae7dc0]" name="writeLetter" duration-ms="14772" started-at="2016-07-20T15:40:06Z" data-provider="parametersForLetter" depends-on-methods="com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest.loginTest" finished-at="2016-07-20T15:40:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[april.helga@mail.ru]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[О погоде]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Здравствуйте!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[INFO  YandexTest - start 'writeLetter test'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  YandexTest - filling the BO - letter:<br>                    recipient: april.helga@mail.ru subject: О погоде textOfLetter: Здравствуйте!<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  YandexTest - start 'writeMessage method'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  MailService - click on button 'Написать'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  MailService - start 'setFieldsOfLetter method'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  LetterPage - click on field 'Кому'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  LetterPage - send key 'april.helga@mail.ru' on field 'Кому'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  LetterPage - send key 'О погоде' on field 'Тема'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  LetterPage - send key 'Здравствуйте!' on field 'Текст письма'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  MailService - finish 'setFieldsOfLetter method'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  MailService - check the subject field presented<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  MailService - check the drafts link presented<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  MailService - click on button 'Входящие'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  YandexTest - finish 'writeMessage method'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  YandexTest - finish 'writeLetter test'<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- writeLetter -->
+        <test-method status="PASS" signature="writeLetter(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest@bae7dc0]" name="writeLetter" duration-ms="13684" started-at="2016-07-20T15:40:21Z" data-provider="parametersForLetter" depends-on-methods="com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest.loginTest" finished-at="2016-07-20T15:40:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[april.helga@mail.ru]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Работа]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Приветствую!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[INFO  YandexTest - start 'writeLetter test'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  YandexTest - filling the BO - letter:<br>                    recipient: april.helga@mail.ru subject: Работа textOfLetter: Приветствую!<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  YandexTest - start 'writeMessage method'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  MailService - click on button 'Написать'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  MailService - start 'setFieldsOfLetter method'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  LetterPage - click on field 'Кому'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  LetterPage - send key 'april.helga@mail.ru' on field 'Кому'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  LetterPage - send key 'Работа' on field 'Тема'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  LetterPage - send key 'Приветствую!' on field 'Текст письма'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  MailService - finish 'setFieldsOfLetter method'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  MailService - check the subject field presented<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  MailService - check the drafts link presented<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  MailService - click on button 'Входящие'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  YandexTest - finish 'writeMessage method'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  YandexTest - finish 'writeLetter test'<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- writeLetter -->
+        <test-method status="PASS" signature="checkTheDrafts(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest@bae7dc0]" name="checkTheDrafts" duration-ms="3945" started-at="2016-07-20T15:40:34Z" data-provider="parametersForLetter" depends-on-methods="com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest.writeLetter" finished-at="2016-07-20T15:40:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[april.helga@mail.ru]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[О погоде]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Здравствуйте!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[INFO  YandexTest - start 'checkTheDrafts test'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  YandexTest - filling the BO - letter:<br>                    recipient: april.helga@mail.ru subject: О погоде textOfLetter: Здравствуйте!<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  YandexTest - start 'draftsCheck' method<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  MailService - click on button 'Черновики'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  MailService - start 'clickAtCheckingDraft method'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  DraftsPage - click at the draft with subject: 'О погоде'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  MailService - finish 'clickAtCheckingDraft method'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  MailService - start 'assertDrafts method'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  MailService - finish 'assertDrafts method'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  YandexTest - finish 'draftsCheck' method<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  YandexTest - finish 'checkTheDrafts test'<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkTheDrafts -->
+        <test-method status="PASS" signature="checkTheDrafts(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest@bae7dc0]" name="checkTheDrafts" duration-ms="3763" started-at="2016-07-20T15:40:38Z" data-provider="parametersForLetter" depends-on-methods="com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest.writeLetter" finished-at="2016-07-20T15:40:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[april.helga@mail.ru]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Работа]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Приветствую!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[INFO  YandexTest - start 'checkTheDrafts test'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  YandexTest - filling the BO - letter:<br>                    recipient: april.helga@mail.ru subject: Работа textOfLetter: Приветствую!<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  YandexTest - start 'draftsCheck' method<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  MailService - click on button 'Черновики'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  MailService - start 'clickAtCheckingDraft method'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  DraftsPage - click at the draft with subject: 'Работа'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  MailService - finish 'clickAtCheckingDraft method'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  MailService - start 'assertDrafts method'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  MailService - finish 'assertDrafts method'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  YandexTest - finish 'draftsCheck' method<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  YandexTest - finish 'checkTheDrafts test'<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkTheDrafts -->
+        <test-method status="PASS" signature="sendLetter(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest@bae7dc0]" name="sendLetter" duration-ms="5538" started-at="2016-07-20T15:40:42Z" data-provider="parametersForLetter" depends-on-methods="com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest.checkTheDrafts" finished-at="2016-07-20T15:40:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[april.helga@mail.ru]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[О погоде]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Здравствуйте!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[INFO  YandexTest - start 'sendLetter test'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  YandexTest - filling the BO - letter:<br>                    recipient: april.helga@mail.ru subject: О погоде textOfLetter: Здравствуйте!<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  YandexTest - start 'sendMessage' method<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  MailService - click on button 'Входящие'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  MailService - click on button 'Написать'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  MailService - start 'setFieldsOfLetter method'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  LetterPage - click on field 'Кому'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  LetterPage - send key 'april.helga@mail.ru' on field 'Кому'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  LetterPage - send key 'О погоде' on field 'Тема'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  LetterPage - send key 'Здравствуйте!' on field 'Текст письма'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  MailService - finish 'setFieldsOfLetter method'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  MailService - start 'sendLetter' method<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  LetterPage - click on button 'Отправить'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  MailService - finish 'sendLetter' method<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  YandexTest - finish 'sendMessage' method<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  YandexTest - finish 'sendLetter test'<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sendLetter -->
+        <test-method status="PASS" signature="sendLetter(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest@bae7dc0]" name="sendLetter" duration-ms="4932" started-at="2016-07-20T15:40:48Z" data-provider="parametersForLetter" depends-on-methods="com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest.checkTheDrafts" finished-at="2016-07-20T15:40:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[april.helga@mail.ru]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Работа]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Приветствую!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[INFO  YandexTest - start 'sendLetter test'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  YandexTest - filling the BO - letter:<br>                    recipient: april.helga@mail.ru subject: Работа textOfLetter: Приветствую!<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  YandexTest - start 'sendMessage' method<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  MailService - click on button 'Входящие'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  MailService - click on button 'Написать'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  MailService - start 'setFieldsOfLetter method'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  LetterPage - click on field 'Кому'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  LetterPage - send key 'april.helga@mail.ru' on field 'Кому'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  LetterPage - send key 'Работа' on field 'Тема'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  LetterPage - send key 'Приветствую!' on field 'Текст письма'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  MailService - finish 'setFieldsOfLetter method'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  MailService - start 'sendLetter' method<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  LetterPage - click on button 'Отправить'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  MailService - finish 'sendLetter' method<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  YandexTest - finish 'sendMessage' method<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  YandexTest - finish 'sendLetter test'<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sendLetter -->
+        <test-method status="PASS" signature="checkSendedLetters(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest@bae7dc0]" name="checkSendedLetters" duration-ms="3573" started-at="2016-07-20T15:40:52Z" data-provider="parametersForLetter" depends-on-methods="com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest.sendLetter" finished-at="2016-07-20T15:40:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[april.helga@mail.ru]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[О погоде]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Здравствуйте!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[INFO  YandexTest - start 'checkSendedLetters test'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  YandexTest - filling the BO - letter:<br>                    recipient: april.helga@mail.ru subject: О погоде textOfLetter: Здравствуйте!<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  YandexTest - start 'checkSendedMessage' method<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  MailService - click on button 'Отрпавленные'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  MailService - start 'clickAtCheckingLetter method'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  SendedLettersPage - click on element (//span[@title="О погоде"])[1]<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  MailService - finish 'clickAtCheckingLetter method'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  MailService - start 'assertLetters' method<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  MailService - finish 'assertLetters' method<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  YandexTest - finish 'checkSendedMessage' method<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  YandexTest - finish 'checkSendedLetters test'<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkSendedLetters -->
+        <test-method status="PASS" signature="checkSendedLetters(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest@bae7dc0]" name="checkSendedLetters" duration-ms="3762" started-at="2016-07-20T15:40:56Z" data-provider="parametersForLetter" depends-on-methods="com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest.sendLetter" finished-at="2016-07-20T15:41:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[april.helga@mail.ru]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Работа]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Приветствую!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[INFO  YandexTest - start 'checkSendedLetters test'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  YandexTest - filling the BO - letter:<br>                    recipient: april.helga@mail.ru subject: Работа textOfLetter: Приветствую!<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  YandexTest - start 'checkSendedMessage' method<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  MailService - click on button 'Отрпавленные'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  MailService - start 'clickAtCheckingLetter method'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  SendedLettersPage - click on element (//span[@title="Работа"])[1]<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  MailService - finish 'clickAtCheckingLetter method'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  MailService - start 'assertLetters' method<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  MailService - finish 'assertLetters' method<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  YandexTest - finish 'checkSendedMessage' method<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  YandexTest - finish 'checkSendedLetters test'<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkSendedLetters -->
+        <test-method status="PASS" signature="cleanTheDrafts()[pri:0, instance:com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest@bae7dc0]" name="cleanTheDrafts" is-config="true" duration-ms="1334" started-at="2016-07-20T15:41:00Z" finished-at="2016-07-20T15:41:01Z">
+          <reporter-output>
+            <line>
+              <![CDATA[INFO  YandexTest - start 'cleanTheDrafts test'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  YandexTest - start 'cleanAllDrafts' method<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  MailService - click on button 'Черновики'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  MailService - start 'deleteDrafts' method<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  DraftsPage - click on button 'Черновики(checkbox)'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  DraftsPage - click on button 'Удалить'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  MailService - finish 'deleteDrafts' method<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  YandexTest - finish 'cleanAllDrafts' method<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  YandexTest - finish 'cleanTheDrafts test'<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- cleanTheDrafts -->
+        <test-method status="PASS" signature="cleanTheSendedLetters()[pri:0, instance:com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest@bae7dc0]" name="cleanTheSendedLetters" is-config="true" duration-ms="3538" started-at="2016-07-20T15:41:01Z" depends-on-methods="com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest.cleanTheDrafts" finished-at="2016-07-20T15:41:05Z">
+          <reporter-output>
+            <line>
+              <![CDATA[INFO  YandexTest - start 'cleanTheSendedLetters test'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  YandexTest - start 'cleanAllSendedLetters' method<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  MailService - click on button 'Отправленные'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  MailService - start 'deleteSendedLetters' method<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  SendedLettersPage - click on button 'Отправленные(checkbox)'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  SendedLettersPage - click on button 'Удалить'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  MailService - finish 'deleteSendedLetters' method<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  YandexTest - finish 'cleanAllSendedLetters' method<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  YandexTest - finish 'cleanTheSendedLetters test'<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- cleanTheSendedLetters -->
+        <test-method status="PASS" signature="exitOfYandexMail()[pri:0, instance:com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest@bae7dc0]" name="exitOfYandexMail" is-config="true" duration-ms="606" started-at="2016-07-20T15:41:05Z" depends-on-methods="com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest.cleanTheSendedLetters" finished-at="2016-07-20T15:41:05Z">
+          <reporter-output>
+            <line>
+              <![CDATA[INFO  YandexTest - start 'exitOfYandexMail test'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  YandexTest - start 'exitFromMail' method<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  MailService - start 'deleteSendedLetters' method<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  SendedLettersPage - click on exit icon<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  SendedLettersPage - click on button 'Выход'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  MailService - finish 'deleteSendedLetters' method<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  YandexTest - finish 'exitFromMail' method<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO  YandexTest - finish 'exitOfYandexMail test'<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- exitOfYandexMail -->
+      </class> <!-- com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest -->
+    </test> <!-- Reporting test -->
+  </suite> <!-- Reporting suite -->
+</testng-results>

@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Reporting_suite">
+              <span class="suite-name border-passed">Reporting suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Reporting_suite">
+                    <span>D:\EclipseProject\Reporting\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Reporting_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Reporting_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Reporting_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Reporting_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Reporting_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Reporting_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">9 methods,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Reporting_suite" class="hide-methods passed suite-Reporting_suite"> (hide)</a> <!-- hide-methods passed suite-Reporting_suite -->
+                      <a href="#" panel-name="suite-Reporting_suite" class="show-methods passed suite-Reporting_suite"> (show)</a> <!-- show-methods passed suite-Reporting_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Reporting_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Reporting_suite" title="com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest" hash-for-method="checkSendedLetters(april.helga@mail.ru, О погоде, Здравствуйте!)">checkSendedLetters(april.helga@mail.ru, О погоде, Здравствуйте!)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Reporting_suite" title="com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest" hash-for-method="checkSendedLetters(april.helga@mail.ru, Работа, Приветствую!)">checkSendedLetters(april.helga@mail.ru, Работа, Приветствую!)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Reporting_suite" title="com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest" hash-for-method="checkTheDrafts(april.helga@mail.ru, Работа, Приветствую!)">checkTheDrafts(april.helga@mail.ru, Работа, Приветствую!)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Reporting_suite" title="com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest" hash-for-method="checkTheDrafts(april.helga@mail.ru, О погоде, Здравствуйте!)">checkTheDrafts(april.helga@mail.ru, О погоде, Здравствуйте!)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Reporting_suite" title="com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Reporting_suite" title="com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest" hash-for-method="sendLetter(april.helga@mail.ru, О погоде, Здравствуйте!)">sendLetter(april.helga@mail.ru, О погоде, Здравствуйте!)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Reporting_suite" title="com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest" hash-for-method="sendLetter(april.helga@mail.ru, Работа, Приветствую!)">sendLetter(april.helga@mail.ru, Работа, Приветствую!)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Reporting_suite" title="com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest" hash-for-method="writeLetter(april.helga@mail.ru, Работа, Приветствую!)">writeLetter(april.helga@mail.ru, Работа, Приветствую!)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Reporting_suite" title="com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest" hash-for-method="writeLetter(april.helga@mail.ru, О погоде, Здравствуйте!)">writeLetter(april.helga@mail.ru, О погоде, Здравствуйте!)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Reporting_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Reporting_suite" class="panel Reporting_suite">
+          <div class="suite-Reporting_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSendedLetters(april.helga@mail.ru, О погоде, Здравствуйте!)">
+                  </a> <!-- checkSendedLetters(april.helga@mail.ru, О погоде, Здравствуйте!) -->
+                  <span class="method-name">checkSendedLetters</span>
+                  <span class="parameters">(april.helga@mail.ru, О погоде, Здравствуйте!)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSendedLetters(april.helga@mail.ru, Работа, Приветствую!)">
+                  </a> <!-- checkSendedLetters(april.helga@mail.ru, Работа, Приветствую!) -->
+                  <span class="method-name">checkSendedLetters</span>
+                  <span class="parameters">(april.helga@mail.ru, Работа, Приветствую!)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkTheDrafts(april.helga@mail.ru, Работа, Приветствую!)">
+                  </a> <!-- checkTheDrafts(april.helga@mail.ru, Работа, Приветствую!) -->
+                  <span class="method-name">checkTheDrafts</span>
+                  <span class="parameters">(april.helga@mail.ru, Работа, Приветствую!)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkTheDrafts(april.helga@mail.ru, О погоде, Здравствуйте!)">
+                  </a> <!-- checkTheDrafts(april.helga@mail.ru, О погоде, Здравствуйте!) -->
+                  <span class="method-name">checkTheDrafts</span>
+                  <span class="parameters">(april.helga@mail.ru, О погоде, Здравствуйте!)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest">
+                  </a> <!-- loginTest -->
+                  <span class="method-name">loginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sendLetter(april.helga@mail.ru, О погоде, Здравствуйте!)">
+                  </a> <!-- sendLetter(april.helga@mail.ru, О погоде, Здравствуйте!) -->
+                  <span class="method-name">sendLetter</span>
+                  <span class="parameters">(april.helga@mail.ru, О погоде, Здравствуйте!)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sendLetter(april.helga@mail.ru, Работа, Приветствую!)">
+                  </a> <!-- sendLetter(april.helga@mail.ru, Работа, Приветствую!) -->
+                  <span class="method-name">sendLetter</span>
+                  <span class="parameters">(april.helga@mail.ru, Работа, Приветствую!)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="writeLetter(april.helga@mail.ru, Работа, Приветствую!)">
+                  </a> <!-- writeLetter(april.helga@mail.ru, Работа, Приветствую!) -->
+                  <span class="method-name">writeLetter</span>
+                  <span class="parameters">(april.helga@mail.ru, Работа, Приветствую!)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="writeLetter(april.helga@mail.ru, О погоде, Здравствуйте!)">
+                  </a> <!-- writeLetter(april.helga@mail.ru, О погоде, Здравствуйте!) -->
+                  <span class="method-name">writeLetter</span>
+                  <span class="parameters">(april.helga@mail.ru, О погоде, Здравствуйте!)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Reporting_suite-class-passed -->
+        </div> <!-- panel Reporting_suite -->
+        <div panel-name="test-xml-Reporting_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\EclipseProject\Reporting\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Reporting suite&quot;&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;Reporting test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Reporting test --&gt;
+&lt;/suite&gt; &lt;!-- Reporting suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Reporting_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Reporting suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Reporting test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Reporting_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Reporting suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Reporting_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Reporting suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Reporting_suite');
+function tableData_Reporting_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(9);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'writeLetter')
+data.setCell(0, 2, 'com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest')
+data.setCell(0, 3, 14772);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'writeLetter')
+data.setCell(1, 2, 'com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest')
+data.setCell(1, 3, 13684);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'loginTest')
+data.setCell(2, 2, 'com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest')
+data.setCell(2, 3, 7034);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'sendLetter')
+data.setCell(3, 2, 'com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest')
+data.setCell(3, 3, 5538);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'sendLetter')
+data.setCell(4, 2, 'com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest')
+data.setCell(4, 3, 4932);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'checkTheDrafts')
+data.setCell(5, 2, 'com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest')
+data.setCell(5, 3, 3945);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'checkTheDrafts')
+data.setCell(6, 2, 'com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest')
+data.setCell(6, 3, 3763);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'checkSendedLetters')
+data.setCell(7, 2, 'com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest')
+data.setCell(7, 3, 3762);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'checkSendedLetters')
+data.setCell(8, 2, 'com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest')
+data.setCell(8, 3, 3573);
+window.suiteTableData['Reporting_suite']= { tableData: data, tableDiv: 'times-div-Reporting_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Reporting_suite">
+              </div> <!-- times-div-Reporting_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Reporting_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Reporting suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">checkTheDrafts(april.helga@mail.ru, Работа, Приветствую!)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">INFO  YandexTest - start 'checkTheDrafts test'<br></span>
+                <span class="reporter-method-output">INFO  YandexTest - filling the BO - letter:<br>                    recipient: april.helga@mail.ru subject: Работа textOfLetter: Приветствую!<br></span>
+                <span class="reporter-method-output">INFO  YandexTest - start 'draftsCheck' method<br></span>
+                <span class="reporter-method-output">INFO  MailService - click on button 'Черновики'<br></span>
+                <span class="reporter-method-output">INFO  MailService - start 'clickAtCheckingDraft method'<br></span>
+                <span class="reporter-method-output">INFO  DraftsPage - click at the draft with subject: 'Работа'<br></span>
+                <span class="reporter-method-output">INFO  MailService - finish 'clickAtCheckingDraft method'<br></span>
+                <span class="reporter-method-output">INFO  MailService - start 'assertDrafts method'<br></span>
+                <span class="reporter-method-output">INFO  MailService - finish 'assertDrafts method'<br></span>
+                <span class="reporter-method-output">INFO  YandexTest - finish 'draftsCheck' method<br></span>
+                <span class="reporter-method-output">INFO  YandexTest - finish 'checkTheDrafts test'<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">checkSendedLetters(april.helga@mail.ru, О погоде, Здравствуйте!)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">INFO  YandexTest - start 'checkSendedLetters test'<br></span>
+                <span class="reporter-method-output">INFO  YandexTest - filling the BO - letter:<br>                    recipient: april.helga@mail.ru subject: О погоде textOfLetter: Здравствуйте!<br></span>
+                <span class="reporter-method-output">INFO  YandexTest - start 'checkSendedMessage' method<br></span>
+                <span class="reporter-method-output">INFO  MailService - click on button 'Отрпавленные'<br></span>
+                <span class="reporter-method-output">INFO  MailService - start 'clickAtCheckingLetter method'<br></span>
+                <span class="reporter-method-output">INFO  SendedLettersPage - click on element (//span[@title="О погоде"])[1]<br></span>
+                <span class="reporter-method-output">INFO  MailService - finish 'clickAtCheckingLetter method'<br></span>
+                <span class="reporter-method-output">INFO  MailService - start 'assertLetters' method<br></span>
+                <span class="reporter-method-output">INFO  MailService - finish 'assertLetters' method<br></span>
+                <span class="reporter-method-output">INFO  YandexTest - finish 'checkSendedMessage' method<br></span>
+                <span class="reporter-method-output">INFO  YandexTest - finish 'checkSendedLetters test'<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">writeLetter(april.helga@mail.ru, Работа, Приветствую!)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">INFO  YandexTest - start 'writeLetter test'<br></span>
+                <span class="reporter-method-output">INFO  YandexTest - filling the BO - letter:<br>                    recipient: april.helga@mail.ru subject: Работа textOfLetter: Приветствую!<br></span>
+                <span class="reporter-method-output">INFO  YandexTest - start 'writeMessage method'<br></span>
+                <span class="reporter-method-output">INFO  MailService - click on button 'Написать'<br></span>
+                <span class="reporter-method-output">INFO  MailService - start 'setFieldsOfLetter method'<br></span>
+                <span class="reporter-method-output">INFO  LetterPage - click on field 'Кому'<br></span>
+                <span class="reporter-method-output">INFO  LetterPage - send key 'april.helga@mail.ru' on field 'Кому'<br></span>
+                <span class="reporter-method-output">INFO  LetterPage - send key 'Работа' on field 'Тема'<br></span>
+                <span class="reporter-method-output">INFO  LetterPage - send key 'Приветствую!' on field 'Текст письма'<br></span>
+                <span class="reporter-method-output">INFO  MailService - finish 'setFieldsOfLetter method'<br></span>
+                <span class="reporter-method-output">INFO  MailService - check the subject field presented<br></span>
+                <span class="reporter-method-output">INFO  MailService - check the drafts link presented<br></span>
+                <span class="reporter-method-output">INFO  MailService - click on button 'Входящие'<br></span>
+                <span class="reporter-method-output">INFO  YandexTest - finish 'writeMessage method'<br></span>
+                <span class="reporter-method-output">INFO  YandexTest - finish 'writeLetter test'<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">sendLetter(april.helga@mail.ru, О погоде, Здравствуйте!)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">INFO  YandexTest - start 'sendLetter test'<br></span>
+                <span class="reporter-method-output">INFO  YandexTest - filling the BO - letter:<br>                    recipient: april.helga@mail.ru subject: О погоде textOfLetter: Здравствуйте!<br></span>
+                <span class="reporter-method-output">INFO  YandexTest - start 'sendMessage' method<br></span>
+                <span class="reporter-method-output">INFO  MailService - click on button 'Входящие'<br></span>
+                <span class="reporter-method-output">INFO  MailService - click on button 'Написать'<br></span>
+                <span class="reporter-method-output">INFO  MailService - start 'setFieldsOfLetter method'<br></span>
+                <span class="reporter-method-output">INFO  LetterPage - click on field 'Кому'<br></span>
+                <span class="reporter-method-output">INFO  LetterPage - send key 'april.helga@mail.ru' on field 'Кому'<br></span>
+                <span class="reporter-method-output">INFO  LetterPage - send key 'О погоде' on field 'Тема'<br></span>
+                <span class="reporter-method-output">INFO  LetterPage - send key 'Здравствуйте!' on field 'Текст письма'<br></span>
+                <span class="reporter-method-output">INFO  MailService - finish 'setFieldsOfLetter method'<br></span>
+                <span class="reporter-method-output">INFO  MailService - start 'sendLetter' method<br></span>
+                <span class="reporter-method-output">INFO  LetterPage - click on button 'Отправить'<br></span>
+                <span class="reporter-method-output">INFO  MailService - finish 'sendLetter' method<br></span>
+                <span class="reporter-method-output">INFO  YandexTest - finish 'sendMessage' method<br></span>
+                <span class="reporter-method-output">INFO  YandexTest - finish 'sendLetter test'<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">checkTheDrafts(april.helga@mail.ru, О погоде, Здравствуйте!)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">INFO  YandexTest - start 'checkTheDrafts test'<br></span>
+                <span class="reporter-method-output">INFO  YandexTest - filling the BO - letter:<br>                    recipient: april.helga@mail.ru subject: О погоде textOfLetter: Здравствуйте!<br></span>
+                <span class="reporter-method-output">INFO  YandexTest - start 'draftsCheck' method<br></span>
+                <span class="reporter-method-output">INFO  MailService - click on button 'Черновики'<br></span>
+                <span class="reporter-method-output">INFO  MailService - start 'clickAtCheckingDraft method'<br></span>
+                <span class="reporter-method-output">INFO  DraftsPage - click at the draft with subject: 'О погоде'<br></span>
+                <span class="reporter-method-output">INFO  MailService - finish 'clickAtCheckingDraft method'<br></span>
+                <span class="reporter-method-output">INFO  MailService - start 'assertDrafts method'<br></span>
+                <span class="reporter-method-output">INFO  MailService - finish 'assertDrafts method'<br></span>
+                <span class="reporter-method-output">INFO  YandexTest - finish 'draftsCheck' method<br></span>
+                <span class="reporter-method-output">INFO  YandexTest - finish 'checkTheDrafts test'<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">loginTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">INFO  YandexTest - start 'login test'<br></span>
+                <span class="reporter-method-output">INFO  YandexTest - start 'loginToMail method'<br></span>
+                <span class="reporter-method-output">INFO  MailService - set login from account:seleniumexample<br></span>
+                <span class="reporter-method-output">INFO  MailService - set password from account:seleniumexample1<br></span>
+                <span class="reporter-method-output">INFO  MailService - click on button 'Войти' <br></span>
+                <span class="reporter-method-output">INFO  MailService - check the mail link presented<br></span>
+                <span class="reporter-method-output">INFO  YandexTest - finish 'loginToMail method'<br></span>
+                <span class="reporter-method-output">INFO  ScreenShot - <a href = 'screenshots/screenshot4125543119565602801.png'>See ScreenShot</a><br></span>
+                <span class="reporter-method-output">INFO  YandexTest - finish 'login test'<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">writeLetter(april.helga@mail.ru, О погоде, Здравствуйте!)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">INFO  YandexTest - start 'writeLetter test'<br></span>
+                <span class="reporter-method-output">INFO  YandexTest - filling the BO - letter:<br>                    recipient: april.helga@mail.ru subject: О погоде textOfLetter: Здравствуйте!<br></span>
+                <span class="reporter-method-output">INFO  YandexTest - start 'writeMessage method'<br></span>
+                <span class="reporter-method-output">INFO  MailService - click on button 'Написать'<br></span>
+                <span class="reporter-method-output">INFO  MailService - start 'setFieldsOfLetter method'<br></span>
+                <span class="reporter-method-output">INFO  LetterPage - click on field 'Кому'<br></span>
+                <span class="reporter-method-output">INFO  LetterPage - send key 'april.helga@mail.ru' on field 'Кому'<br></span>
+                <span class="reporter-method-output">INFO  LetterPage - send key 'О погоде' on field 'Тема'<br></span>
+                <span class="reporter-method-output">INFO  LetterPage - send key 'Здравствуйте!' on field 'Текст письма'<br></span>
+                <span class="reporter-method-output">INFO  MailService - finish 'setFieldsOfLetter method'<br></span>
+                <span class="reporter-method-output">INFO  MailService - check the subject field presented<br></span>
+                <span class="reporter-method-output">INFO  MailService - check the drafts link presented<br></span>
+                <span class="reporter-method-output">INFO  MailService - click on button 'Входящие'<br></span>
+                <span class="reporter-method-output">INFO  YandexTest - finish 'writeMessage method'<br></span>
+                <span class="reporter-method-output">INFO  YandexTest - finish 'writeLetter test'<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">sendLetter(april.helga@mail.ru, Работа, Приветствую!)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">INFO  YandexTest - start 'sendLetter test'<br></span>
+                <span class="reporter-method-output">INFO  YandexTest - filling the BO - letter:<br>                    recipient: april.helga@mail.ru subject: Работа textOfLetter: Приветствую!<br></span>
+                <span class="reporter-method-output">INFO  YandexTest - start 'sendMessage' method<br></span>
+                <span class="reporter-method-output">INFO  MailService - click on button 'Входящие'<br></span>
+                <span class="reporter-method-output">INFO  MailService - click on button 'Написать'<br></span>
+                <span class="reporter-method-output">INFO  MailService - start 'setFieldsOfLetter method'<br></span>
+                <span class="reporter-method-output">INFO  LetterPage - click on field 'Кому'<br></span>
+                <span class="reporter-method-output">INFO  LetterPage - send key 'april.helga@mail.ru' on field 'Кому'<br></span>
+                <span class="reporter-method-output">INFO  LetterPage - send key 'Работа' on field 'Тема'<br></span>
+                <span class="reporter-method-output">INFO  LetterPage - send key 'Приветствую!' on field 'Текст письма'<br></span>
+                <span class="reporter-method-output">INFO  MailService - finish 'setFieldsOfLetter method'<br></span>
+                <span class="reporter-method-output">INFO  MailService - start 'sendLetter' method<br></span>
+                <span class="reporter-method-output">INFO  LetterPage - click on button 'Отправить'<br></span>
+                <span class="reporter-method-output">INFO  MailService - finish 'sendLetter' method<br></span>
+                <span class="reporter-method-output">INFO  YandexTest - finish 'sendMessage' method<br></span>
+                <span class="reporter-method-output">INFO  YandexTest - finish 'sendLetter test'<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">checkSendedLetters(april.helga@mail.ru, Работа, Приветствую!)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">INFO  YandexTest - start 'checkSendedLetters test'<br></span>
+                <span class="reporter-method-output">INFO  YandexTest - filling the BO - letter:<br>                    recipient: april.helga@mail.ru subject: Работа textOfLetter: Приветствую!<br></span>
+                <span class="reporter-method-output">INFO  YandexTest - start 'checkSendedMessage' method<br></span>
+                <span class="reporter-method-output">INFO  MailService - click on button 'Отрпавленные'<br></span>
+                <span class="reporter-method-output">INFO  MailService - start 'clickAtCheckingLetter method'<br></span>
+                <span class="reporter-method-output">INFO  SendedLettersPage - click on element (//span[@title="Работа"])[1]<br></span>
+                <span class="reporter-method-output">INFO  MailService - finish 'clickAtCheckingLetter method'<br></span>
+                <span class="reporter-method-output">INFO  MailService - start 'assertLetters' method<br></span>
+                <span class="reporter-method-output">INFO  MailService - finish 'assertLetters' method<br></span>
+                <span class="reporter-method-output">INFO  YandexTest - finish 'checkSendedMessage' method<br></span>
+                <span class="reporter-method-output">INFO  YandexTest - finish 'checkSendedLetters test'<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Reporting_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Reporting_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">startBrowser</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">loginTest</span>
+                <span class="method-start">660 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">writeLetter(april.helga@mail.ru, О погоде, Здравствуйте!)</span>
+                <span class="method-start">7697 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">writeLetter(april.helga@mail.ru, Работа, Приветствую!)</span>
+                <span class="method-start">22469 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkTheDrafts(april.helga@mail.ru, О погоде, Здравствуйте!)</span>
+                <span class="method-start">36154 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkTheDrafts(april.helga@mail.ru, Работа, Приветствую!)</span>
+                <span class="method-start">40100 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sendLetter(april.helga@mail.ru, О погоде, Здравствуйте!)</span>
+                <span class="method-start">43864 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sendLetter(april.helga@mail.ru, Работа, Приветствую!)</span>
+                <span class="method-start">49402 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkSendedLetters(april.helga@mail.ru, О погоде, Здравствуйте!)</span>
+                <span class="method-start">54335 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkSendedLetters(april.helga@mail.ru, Работа, Приветствую!)</span>
+                <span class="method-start">57908 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">cleanTheDrafts</span>
+                <span class="method-start">61671 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class after">
+                <span class="method-name">cleanTheSendedLetters</span>
+                <span class="method-start">63005 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class after">
+                <span class="method-name">exitOfYandexMail</span>
+                <span class="method-start">66544 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

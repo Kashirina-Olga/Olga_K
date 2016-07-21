@@ -1,0 +1,293 @@
+<html>
+<head>
+<title>TestNG:  Reporting test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Reporting test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>9/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Jul 20 15:39:58 MSK 2016</td>
+</tr>
+<tr><td>Total time:</td><td>67 seconds (67151 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest.checkSendedLetters()'><b>checkSendedLetters</b><br>Test class: com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest<br>Parameters: april.helga@mail.ru, О погоде, Здравствуйте!<br/>
+<a href="#Output-2068897588" onClick='toggleBox("Output-2068897588", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2068897588" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2068897588">
+INFO  YandexTest - start 'checkSendedLetters test'<br><br/>
+INFO  YandexTest - filling the BO - letter:<br>                    recipient: april.helga@mail.ru subject: О погоде textOfLetter: Здравствуйте!<br><br/>
+INFO  YandexTest - start 'checkSendedMessage' method<br><br/>
+INFO  MailService - click on button 'Отрпавленные'<br><br/>
+INFO  MailService - start 'clickAtCheckingLetter method'<br><br/>
+INFO  SendedLettersPage - click on element (//span[@title="О погоде"])[1]<br><br/>
+INFO  MailService - finish 'clickAtCheckingLetter method'<br><br/>
+INFO  MailService - start 'assertLetters' method<br><br/>
+INFO  MailService - finish 'assertLetters' method<br><br/>
+INFO  YandexTest - finish 'checkSendedMessage' method<br><br/>
+INFO  YandexTest - finish 'checkSendedLetters test'<br><br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest@bae7dc0</td></tr>
+<tr>
+<td title='com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest.checkSendedLetters()'><b>checkSendedLetters</b><br>Test class: com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest<br>Parameters: april.helga@mail.ru, Работа, Приветствую!<br/>
+<a href="#Output-1261198850" onClick='toggleBox("Output-1261198850", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1261198850" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1261198850">
+INFO  YandexTest - start 'checkSendedLetters test'<br><br/>
+INFO  YandexTest - filling the BO - letter:<br>                    recipient: april.helga@mail.ru subject: Работа textOfLetter: Приветствую!<br><br/>
+INFO  YandexTest - start 'checkSendedMessage' method<br><br/>
+INFO  MailService - click on button 'Отрпавленные'<br><br/>
+INFO  MailService - start 'clickAtCheckingLetter method'<br><br/>
+INFO  SendedLettersPage - click on element (//span[@title="Работа"])[1]<br><br/>
+INFO  MailService - finish 'clickAtCheckingLetter method'<br><br/>
+INFO  MailService - start 'assertLetters' method<br><br/>
+INFO  MailService - finish 'assertLetters' method<br><br/>
+INFO  YandexTest - finish 'checkSendedMessage' method<br><br/>
+INFO  YandexTest - finish 'checkSendedLetters test'<br><br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest@bae7dc0</td></tr>
+<tr>
+<td title='com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest.checkTheDrafts()'><b>checkTheDrafts</b><br>Test class: com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest<br>Parameters: april.helga@mail.ru, О погоде, Здравствуйте!<br/>
+<a href="#Output-549293029" onClick='toggleBox("Output-549293029", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-549293029" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-549293029">
+INFO  YandexTest - start 'checkTheDrafts test'<br><br/>
+INFO  YandexTest - filling the BO - letter:<br>                    recipient: april.helga@mail.ru subject: О погоде textOfLetter: Здравствуйте!<br><br/>
+INFO  YandexTest - start 'draftsCheck' method<br><br/>
+INFO  MailService - click on button 'Черновики'<br><br/>
+INFO  MailService - start 'clickAtCheckingDraft method'<br><br/>
+INFO  DraftsPage - click at the draft with subject: 'О погоде'<br><br/>
+INFO  MailService - finish 'clickAtCheckingDraft method'<br><br/>
+INFO  MailService - start 'assertDrafts method'<br><br/>
+INFO  MailService - finish 'assertDrafts method'<br><br/>
+INFO  YandexTest - finish 'draftsCheck' method<br><br/>
+INFO  YandexTest - finish 'checkTheDrafts test'<br><br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest@bae7dc0</td></tr>
+<tr>
+<td title='com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest.checkTheDrafts()'><b>checkTheDrafts</b><br>Test class: com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest<br>Parameters: april.helga@mail.ru, Работа, Приветствую!<br/>
+<a href="#Output-1358343316" onClick='toggleBox("Output-1358343316", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1358343316" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1358343316">
+INFO  YandexTest - start 'checkTheDrafts test'<br><br/>
+INFO  YandexTest - filling the BO - letter:<br>                    recipient: april.helga@mail.ru subject: Работа textOfLetter: Приветствую!<br><br/>
+INFO  YandexTest - start 'draftsCheck' method<br><br/>
+INFO  MailService - click on button 'Черновики'<br><br/>
+INFO  MailService - start 'clickAtCheckingDraft method'<br><br/>
+INFO  DraftsPage - click at the draft with subject: 'Работа'<br><br/>
+INFO  MailService - finish 'clickAtCheckingDraft method'<br><br/>
+INFO  MailService - start 'assertDrafts method'<br><br/>
+INFO  MailService - finish 'assertDrafts method'<br><br/>
+INFO  YandexTest - finish 'draftsCheck' method<br><br/>
+INFO  YandexTest - finish 'checkTheDrafts test'<br><br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest@bae7dc0</td></tr>
+<tr>
+<td title='com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest.loginTest()'><b>loginTest</b><br>Test class: com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest<br/>
+<a href="#Output-1485891705" onClick='toggleBox("Output-1485891705", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1485891705" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1485891705">
+INFO  YandexTest - start 'login test'<br><br/>
+INFO  YandexTest - start 'loginToMail method'<br><br/>
+INFO  MailService - set login from account:seleniumexample<br><br/>
+INFO  MailService - set password from account:seleniumexample1<br><br/>
+INFO  MailService - click on button 'Войти' <br><br/>
+INFO  MailService - check the mail link presented<br><br/>
+INFO  YandexTest - finish 'loginToMail method'<br><br/>
+INFO  ScreenShot - <a href = 'screenshots/screenshot4125543119565602801.png'>See ScreenShot</a><br><br/>
+INFO  YandexTest - finish 'login test'<br><br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest@bae7dc0</td></tr>
+<tr>
+<td title='com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest.sendLetter()'><b>sendLetter</b><br>Test class: com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest<br>Parameters: april.helga@mail.ru, О погоде, Здравствуйте!<br/>
+<a href="#Output-1752461090" onClick='toggleBox("Output-1752461090", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1752461090" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1752461090">
+INFO  YandexTest - start 'sendLetter test'<br><br/>
+INFO  YandexTest - filling the BO - letter:<br>                    recipient: april.helga@mail.ru subject: О погоде textOfLetter: Здравствуйте!<br><br/>
+INFO  YandexTest - start 'sendMessage' method<br><br/>
+INFO  MailService - click on button 'Входящие'<br><br/>
+INFO  MailService - click on button 'Написать'<br><br/>
+INFO  MailService - start 'setFieldsOfLetter method'<br><br/>
+INFO  LetterPage - click on field 'Кому'<br><br/>
+INFO  LetterPage - send key 'april.helga@mail.ru' on field 'Кому'<br><br/>
+INFO  LetterPage - send key 'О погоде' on field 'Тема'<br><br/>
+INFO  LetterPage - send key 'Здравствуйте!' on field 'Текст письма'<br><br/>
+INFO  MailService - finish 'setFieldsOfLetter method'<br><br/>
+INFO  MailService - start 'sendLetter' method<br><br/>
+INFO  LetterPage - click on button 'Отправить'<br><br/>
+INFO  MailService - finish 'sendLetter' method<br><br/>
+INFO  YandexTest - finish 'sendMessage' method<br><br/>
+INFO  YandexTest - finish 'sendLetter test'<br><br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest@bae7dc0</td></tr>
+<tr>
+<td title='com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest.sendLetter()'><b>sendLetter</b><br>Test class: com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest<br>Parameters: april.helga@mail.ru, Работа, Приветствую!<br/>
+<a href="#Output-1399701152" onClick='toggleBox("Output-1399701152", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1399701152" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1399701152">
+INFO  YandexTest - start 'sendLetter test'<br><br/>
+INFO  YandexTest - filling the BO - letter:<br>                    recipient: april.helga@mail.ru subject: Работа textOfLetter: Приветствую!<br><br/>
+INFO  YandexTest - start 'sendMessage' method<br><br/>
+INFO  MailService - click on button 'Входящие'<br><br/>
+INFO  MailService - click on button 'Написать'<br><br/>
+INFO  MailService - start 'setFieldsOfLetter method'<br><br/>
+INFO  LetterPage - click on field 'Кому'<br><br/>
+INFO  LetterPage - send key 'april.helga@mail.ru' on field 'Кому'<br><br/>
+INFO  LetterPage - send key 'Работа' on field 'Тема'<br><br/>
+INFO  LetterPage - send key 'Приветствую!' on field 'Текст письма'<br><br/>
+INFO  MailService - finish 'setFieldsOfLetter method'<br><br/>
+INFO  MailService - start 'sendLetter' method<br><br/>
+INFO  LetterPage - click on button 'Отправить'<br><br/>
+INFO  MailService - finish 'sendLetter' method<br><br/>
+INFO  YandexTest - finish 'sendMessage' method<br><br/>
+INFO  YandexTest - finish 'sendLetter test'<br><br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest@bae7dc0</td></tr>
+<tr>
+<td title='com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest.writeLetter()'><b>writeLetter</b><br>Test class: com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest<br>Parameters: april.helga@mail.ru, О погоде, Здравствуйте!<br/>
+<a href="#Output-530486389" onClick='toggleBox("Output-530486389", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-530486389" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-530486389">
+INFO  YandexTest - start 'writeLetter test'<br><br/>
+INFO  YandexTest - filling the BO - letter:<br>                    recipient: april.helga@mail.ru subject: О погоде textOfLetter: Здравствуйте!<br><br/>
+INFO  YandexTest - start 'writeMessage method'<br><br/>
+INFO  MailService - click on button 'Написать'<br><br/>
+INFO  MailService - start 'setFieldsOfLetter method'<br><br/>
+INFO  LetterPage - click on field 'Кому'<br><br/>
+INFO  LetterPage - send key 'april.helga@mail.ru' on field 'Кому'<br><br/>
+INFO  LetterPage - send key 'О погоде' on field 'Тема'<br><br/>
+INFO  LetterPage - send key 'Здравствуйте!' on field 'Текст письма'<br><br/>
+INFO  MailService - finish 'setFieldsOfLetter method'<br><br/>
+INFO  MailService - check the subject field presented<br><br/>
+INFO  MailService - check the drafts link presented<br><br/>
+INFO  MailService - click on button 'Входящие'<br><br/>
+INFO  YandexTest - finish 'writeMessage method'<br><br/>
+INFO  YandexTest - finish 'writeLetter test'<br><br/>
+</div>
+</td>
+<td></td>
+<td>14</td>
+<td>com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest@bae7dc0</td></tr>
+<tr>
+<td title='com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest.writeLetter()'><b>writeLetter</b><br>Test class: com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest<br>Parameters: april.helga@mail.ru, Работа, Приветствую!<br/>
+<a href="#Output-1865859824" onClick='toggleBox("Output-1865859824", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1865859824" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1865859824">
+INFO  YandexTest - start 'writeLetter test'<br><br/>
+INFO  YandexTest - filling the BO - letter:<br>                    recipient: april.helga@mail.ru subject: Работа textOfLetter: Приветствую!<br><br/>
+INFO  YandexTest - start 'writeMessage method'<br><br/>
+INFO  MailService - click on button 'Написать'<br><br/>
+INFO  MailService - start 'setFieldsOfLetter method'<br><br/>
+INFO  LetterPage - click on field 'Кому'<br><br/>
+INFO  LetterPage - send key 'april.helga@mail.ru' on field 'Кому'<br><br/>
+INFO  LetterPage - send key 'Работа' on field 'Тема'<br><br/>
+INFO  LetterPage - send key 'Приветствую!' on field 'Текст письма'<br><br/>
+INFO  MailService - finish 'setFieldsOfLetter method'<br><br/>
+INFO  MailService - check the subject field presented<br><br/>
+INFO  MailService - check the drafts link presented<br><br/>
+INFO  MailService - click on button 'Входящие'<br><br/>
+INFO  YandexTest - finish 'writeMessage method'<br><br/>
+INFO  YandexTest - finish 'writeLetter test'<br><br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest@bae7dc0</td></tr>
+</table><p>
+</body>
+</html>

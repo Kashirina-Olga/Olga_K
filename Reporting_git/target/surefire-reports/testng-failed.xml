@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Reporting suite]">
+  <test verbose="2" name="Reporting test">
+    <classes>
+      <class name="com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest"/>
+    </classes>
+  </test> <!-- Reporting test -->
+</suite> <!-- Failed suite [Reporting suite] -->
