@@ -2,7 +2,7 @@
 <testng-results skipped="0" failed="0" total="9" passed="9">
   <reporter-output>
     <line>
-      <![CDATA[INFO  ScreenShot - Delete all files from folderD:\EclipseProject\Reporting\test-output\html\screenshots<br>]]>
+      <![CDATA[INFO  ScreenShot - Delete all files from folderC:\Users\Olga_Kashirina@epam.com\git\Olga_K\Reporting_git\test-output\html\screenshots<br>]]>
     </line>
     <line>
       <![CDATA[INFO  YandexTest - start 'login test'<br>]]>
@@ -26,7 +26,7 @@
       <![CDATA[INFO  YandexTest - finish 'loginToMail method'<br>]]>
     </line>
     <line>
-      <![CDATA[INFO  ScreenShot - <a href = 'screenshots/screenshot4125543119565602801.png'>See ScreenShot</a><br>]]>
+      <![CDATA[INFO  ScreenShot - <a href = 'screenshots/screenshot1989673131150507497.png'>See ScreenShot</a><br>]]>
     </line>
     <line>
       <![CDATA[INFO  YandexTest - finish 'login test'<br>]]>
@@ -428,16 +428,16 @@
       <![CDATA[INFO  YandexTest - finish 'exitOfYandexMail test'<br>]]>
     </line>
   </reporter-output>
-  <suite name="Reporting suite" duration-ms="67151" started-at="2016-07-20T12:39:58Z" finished-at="2016-07-20T12:41:05Z">
+  <suite name="Reporting suite" duration-ms="65906" started-at="2016-07-21T08:14:18Z" finished-at="2016-07-21T08:15:24Z">
     <groups>
     </groups>
-    <test name="Reporting test" duration-ms="67151" started-at="2016-07-20T12:39:58Z" finished-at="2016-07-20T12:41:05Z">
+    <test name="Reporting test" duration-ms="65906" started-at="2016-07-21T08:14:18Z" finished-at="2016-07-21T08:15:24Z">
       <class name="com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest">
-        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest@bae7dc0]" name="startBrowser" is-config="true" duration-ms="655" started-at="2016-07-20T15:39:58Z" finished-at="2016-07-20T15:39:59Z">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest@bae7dc0]" name="startBrowser" is-config="true" duration-ms="610" started-at="2016-07-21T11:14:18Z" finished-at="2016-07-21T11:14:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startBrowser -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest@bae7dc0]" name="loginTest" duration-ms="7034" started-at="2016-07-20T15:39:59Z" finished-at="2016-07-20T15:40:06Z">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest@bae7dc0]" name="loginTest" duration-ms="2021" started-at="2016-07-21T11:14:18Z" finished-at="2016-07-21T11:14:20Z">
           <reporter-output>
             <line>
               <![CDATA[INFO  YandexTest - start 'login test'<br>]]>
@@ -461,14 +461,14 @@
               <![CDATA[INFO  YandexTest - finish 'loginToMail method'<br>]]>
             </line>
             <line>
-              <![CDATA[INFO  ScreenShot - <a href = 'screenshots/screenshot4125543119565602801.png'>See ScreenShot</a><br>]]>
+              <![CDATA[INFO  ScreenShot - <a href = 'screenshots/screenshot1989673131150507497.png'>See ScreenShot</a><br>]]>
             </line>
             <line>
               <![CDATA[INFO  YandexTest - finish 'login test'<br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="writeLetter(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest@bae7dc0]" name="writeLetter" duration-ms="14772" started-at="2016-07-20T15:40:06Z" data-provider="parametersForLetter" depends-on-methods="com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest.loginTest" finished-at="2016-07-20T15:40:21Z">
+        <test-method status="PASS" signature="writeLetter(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest@bae7dc0]" name="writeLetter" duration-ms="18469" started-at="2016-07-21T11:14:20Z" data-provider="parametersForLetter" depends-on-methods="com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest.loginTest" finished-at="2016-07-21T11:14:39Z">
           <params>
             <param index="0">
               <value>
@@ -534,7 +534,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- writeLetter -->
-        <test-method status="PASS" signature="writeLetter(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest@bae7dc0]" name="writeLetter" duration-ms="13684" started-at="2016-07-20T15:40:21Z" data-provider="parametersForLetter" depends-on-methods="com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest.loginTest" finished-at="2016-07-20T15:40:34Z">
+        <test-method status="PASS" signature="writeLetter(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest@bae7dc0]" name="writeLetter" duration-ms="13698" started-at="2016-07-21T11:14:39Z" data-provider="parametersForLetter" depends-on-methods="com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest.loginTest" finished-at="2016-07-21T11:14:52Z">
           <params>
             <param index="0">
               <value>
@@ -600,7 +600,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- writeLetter -->
-        <test-method status="PASS" signature="checkTheDrafts(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest@bae7dc0]" name="checkTheDrafts" duration-ms="3945" started-at="2016-07-20T15:40:34Z" data-provider="parametersForLetter" depends-on-methods="com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest.writeLetter" finished-at="2016-07-20T15:40:38Z">
+        <test-method status="PASS" signature="checkTheDrafts(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest@bae7dc0]" name="checkTheDrafts" duration-ms="3809" started-at="2016-07-21T11:14:52Z" data-provider="parametersForLetter" depends-on-methods="com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest.writeLetter" finished-at="2016-07-21T11:14:56Z">
           <params>
             <param index="0">
               <value>
@@ -654,7 +654,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- checkTheDrafts -->
-        <test-method status="PASS" signature="checkTheDrafts(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest@bae7dc0]" name="checkTheDrafts" duration-ms="3763" started-at="2016-07-20T15:40:38Z" data-provider="parametersForLetter" depends-on-methods="com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest.writeLetter" finished-at="2016-07-20T15:40:42Z">
+        <test-method status="PASS" signature="checkTheDrafts(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest@bae7dc0]" name="checkTheDrafts" duration-ms="3828" started-at="2016-07-21T11:14:56Z" data-provider="parametersForLetter" depends-on-methods="com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest.writeLetter" finished-at="2016-07-21T11:15:00Z">
           <params>
             <param index="0">
               <value>
@@ -708,7 +708,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- checkTheDrafts -->
-        <test-method status="PASS" signature="sendLetter(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest@bae7dc0]" name="sendLetter" duration-ms="5538" started-at="2016-07-20T15:40:42Z" data-provider="parametersForLetter" depends-on-methods="com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest.checkTheDrafts" finished-at="2016-07-20T15:40:48Z">
+        <test-method status="PASS" signature="sendLetter(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest@bae7dc0]" name="sendLetter" duration-ms="5252" started-at="2016-07-21T11:15:00Z" data-provider="parametersForLetter" depends-on-methods="com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest.checkTheDrafts" finished-at="2016-07-21T11:15:05Z">
           <params>
             <param index="0">
               <value>
@@ -777,7 +777,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- sendLetter -->
-        <test-method status="PASS" signature="sendLetter(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest@bae7dc0]" name="sendLetter" duration-ms="4932" started-at="2016-07-20T15:40:48Z" data-provider="parametersForLetter" depends-on-methods="com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest.checkTheDrafts" finished-at="2016-07-20T15:40:52Z">
+        <test-method status="PASS" signature="sendLetter(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest@bae7dc0]" name="sendLetter" duration-ms="5509" started-at="2016-07-21T11:15:05Z" data-provider="parametersForLetter" depends-on-methods="com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest.checkTheDrafts" finished-at="2016-07-21T11:15:11Z">
           <params>
             <param index="0">
               <value>
@@ -846,7 +846,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- sendLetter -->
-        <test-method status="PASS" signature="checkSendedLetters(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest@bae7dc0]" name="checkSendedLetters" duration-ms="3573" started-at="2016-07-20T15:40:52Z" data-provider="parametersForLetter" depends-on-methods="com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest.sendLetter" finished-at="2016-07-20T15:40:56Z">
+        <test-method status="PASS" signature="checkSendedLetters(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest@bae7dc0]" name="checkSendedLetters" duration-ms="3511" started-at="2016-07-21T11:15:11Z" data-provider="parametersForLetter" depends-on-methods="com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest.sendLetter" finished-at="2016-07-21T11:15:14Z">
           <params>
             <param index="0">
               <value>
@@ -900,7 +900,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- checkSendedLetters -->
-        <test-method status="PASS" signature="checkSendedLetters(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest@bae7dc0]" name="checkSendedLetters" duration-ms="3762" started-at="2016-07-20T15:40:56Z" data-provider="parametersForLetter" depends-on-methods="com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest.sendLetter" finished-at="2016-07-20T15:41:00Z">
+        <test-method status="PASS" signature="checkSendedLetters(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest@bae7dc0]" name="checkSendedLetters" duration-ms="3706" started-at="2016-07-21T11:15:14Z" data-provider="parametersForLetter" depends-on-methods="com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest.sendLetter" finished-at="2016-07-21T11:15:18Z">
           <params>
             <param index="0">
               <value>
@@ -954,7 +954,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- checkSendedLetters -->
-        <test-method status="PASS" signature="cleanTheDrafts()[pri:0, instance:com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest@bae7dc0]" name="cleanTheDrafts" is-config="true" duration-ms="1334" started-at="2016-07-20T15:41:00Z" finished-at="2016-07-20T15:41:01Z">
+        <test-method status="PASS" signature="cleanTheDrafts()[pri:0, instance:com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest@bae7dc0]" name="cleanTheDrafts" is-config="true" duration-ms="1314" started-at="2016-07-21T11:15:18Z" finished-at="2016-07-21T11:15:19Z">
           <reporter-output>
             <line>
               <![CDATA[INFO  YandexTest - start 'cleanTheDrafts test'<br>]]>
@@ -985,7 +985,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- cleanTheDrafts -->
-        <test-method status="PASS" signature="cleanTheSendedLetters()[pri:0, instance:com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest@bae7dc0]" name="cleanTheSendedLetters" is-config="true" duration-ms="3538" started-at="2016-07-20T15:41:01Z" depends-on-methods="com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest.cleanTheDrafts" finished-at="2016-07-20T15:41:05Z">
+        <test-method status="PASS" signature="cleanTheSendedLetters()[pri:0, instance:com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest@bae7dc0]" name="cleanTheSendedLetters" is-config="true" duration-ms="3540" started-at="2016-07-21T11:15:19Z" depends-on-methods="com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest.cleanTheDrafts" finished-at="2016-07-21T11:15:23Z">
           <reporter-output>
             <line>
               <![CDATA[INFO  YandexTest - start 'cleanTheSendedLetters test'<br>]]>
@@ -1016,7 +1016,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- cleanTheSendedLetters -->
-        <test-method status="PASS" signature="exitOfYandexMail()[pri:0, instance:com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest@bae7dc0]" name="exitOfYandexMail" is-config="true" duration-ms="606" started-at="2016-07-20T15:41:05Z" depends-on-methods="com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest.cleanTheSendedLetters" finished-at="2016-07-20T15:41:05Z">
+        <test-method status="PASS" signature="exitOfYandexMail()[pri:0, instance:com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest@bae7dc0]" name="exitOfYandexMail" is-config="true" duration-ms="624" started-at="2016-07-21T11:15:23Z" depends-on-methods="com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest.cleanTheSendedLetters" finished-at="2016-07-21T11:15:24Z">
           <reporter-output>
             <line>
               <![CDATA[INFO  YandexTest - start 'exitOfYandexMail test'<br>]]>

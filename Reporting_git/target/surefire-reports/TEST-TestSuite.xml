@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="9" failures="0" name="TestSuite" time="61.002" errors="0" skipped="0">
+<testsuite tests="9" failures="0" name="TestSuite" time="59.8" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_65\jre\bin"/>
     <property name="java.vm.version" value="25.65-b01"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Olga_Kashirina@epam.com\.jenkins\workspace\Reporting"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Olga_Kashirina@epam.com\.jenkins\workspace\Reporting_Git"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="Service Pack 1"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\Olga_Kashirina@epam.com\.jenkins\workspace\Reporting"/>
+    <property name="user.dir" value="C:\Users\Olga_Kashirina@epam.com\.jenkins\workspace\Reporting_Git"/>
     <property name="java.runtime.version" value="1.8.0_65-b17"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_65\jre\lib\endorsed"/>
@@ -29,11 +29,10 @@
     <property name="os.name" value="Windows 7"/>
     <property name="classworlds.conf" value="D:\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin\..\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1251"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_65\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Skype\Phone\;D:\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_65\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Skype\Phone\;D:\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;C:\Program Files\Git\cmd;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="maven.repo.local" value="C:\Users\Olga_Kashirina@epam.com\.jenkins\workspace\Reporting\.repository"/>
     <property name="os.version" value="6.1"/>
     <property name="user.home" value="C:\Users\Olga_Kashirina@epam.com"/>
     <property name="user.timezone" value="Europe/Minsk"/>
@@ -45,7 +44,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_65\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -f D:\EclipseProject\Reporting\pom.xml -Dmaven.repo.local=C:\Users\Olga_Kashirina@epam.com\.jenkins\workspace\Reporting\.repository test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -f C:\Users\Olga_Kashirina@epam.com\git\Olga_K\Reporting_git\pom.xml test"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -62,13 +61,13 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest" name="loginTest" time="7.035"/>
-  <testcase classname="com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest" name="writeLetter" time="14.772"/>
-  <testcase classname="com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest" name="writeLetter" time="13.683"/>
-  <testcase classname="com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest" name="checkTheDrafts" time="3.945"/>
-  <testcase classname="com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest" name="checkTheDrafts" time="3.763"/>
-  <testcase classname="com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest" name="sendLetter" time="5.538"/>
-  <testcase classname="com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest" name="sendLetter" time="4.931"/>
-  <testcase classname="com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest" name="checkSendedLetters" time="3.572"/>
-  <testcase classname="com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest" name="checkSendedLetters" time="3.763"/>
+  <testcase classname="com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest" name="loginTest" time="2.022"/>
+  <testcase classname="com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest" name="writeLetter" time="18.469"/>
+  <testcase classname="com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest" name="writeLetter" time="13.697"/>
+  <testcase classname="com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest" name="checkTheDrafts" time="3.808"/>
+  <testcase classname="com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest" name="checkTheDrafts" time="3.827"/>
+  <testcase classname="com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest" name="sendLetter" time="5.252"/>
+  <testcase classname="com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest" name="sendLetter" time="5.509"/>
+  <testcase classname="com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest" name="checkSendedLetters" time="3.51"/>
+  <testcase classname="com.epam.olga_kashirina.webdriver.lesson2.task1.ReportNG.run_tests.tests.YandexTest" name="checkSendedLetters" time="3.706"/>
 </testsuite>
